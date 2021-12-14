@@ -6,7 +6,7 @@
 
 ### 创建数据库及表
 
-执行 `data.sql`
+执行 `data-biz.sql`
 
 ### 启动 Seata Server
 
