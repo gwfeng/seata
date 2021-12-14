@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41c9b2a0-005d-407f-974c-52334bf89cec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README2.md" afterDir="false" />
-    </list>
+    <list default="true" id="41c9b2a0-005d-407f-974c-52334bf89cec" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +44,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\coding\personal\learn\seata\seata-fgw\seata\multiple-datasource-mybatis-plus" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
@@ -89,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1639383600210</updated>
       <workItem from="1639383601576" duration="2923000" />
-      <workItem from="1639387621752" duration="303000" />
+      <workItem from="1639387621752" duration="1974000" />
     </task>
     <servers />
   </component>
