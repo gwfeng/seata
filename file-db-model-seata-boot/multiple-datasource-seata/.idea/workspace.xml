@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9eedf0e2-6f4b-4c67-aa4c-91056392e5da" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/README2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/data-biz.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/src/main/java/io/seata/samples/mutiple/mybatisplus/MultipleDatasourceMyBatisPlusApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/src/main/java/io/seata/samples/mutiple/mybatisplus/common/OperationResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/src/main/java/io/seata/samples/mutiple/mybatisplus/common/order/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/src/main/java/io/seata/samples/mutiple/mybatisplus/common/order/OrderStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/src/main/java/io/seata/samples/mutiple/mybatisplus/common/order/PlaceOrderRequestVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/src/main/java/io/seata/samples/mutiple/mybatisplus/common/pay/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/src/main/java/io/seata/samples/mutiple/mybatisplus/common/pay/ReduceBalanceRequestVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/src/main/java/io/seata/samples/mutiple/mybatisplus/common/stock/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/src/main/java/io/seata/samples/mutiple/mybatisplus/common/stock/ReduceStockRequestVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/src/main/java/io/seata/samples/mutiple/mybatisplus/config/DataSourceKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/src/main/java/io/seata/samples/mutiple/mybatisplus/config/DataSourceProxyConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/src/main/java/io/seata/samples/mutiple/mybatisplus/config/DynamicDataSourceContextHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/src/main/java/io/seata/samples/mutiple/mybatisplus/config/DynamicRoutingDataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/src/main/java/io/seata/samples/mutiple/mybatisplus/controller/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/src/main/java/io/seata/samples/mutiple/mybatisplus/dao/AccountDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/src/main/java/io/seata/samples/mutiple/mybatisplus/dao/OrderDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/src/main/java/io/seata/samples/mutiple/mybatisplus/dao/ProductDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/src/main/java/io/seata/samples/mutiple/mybatisplus/service/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/src/main/java/io/seata/samples/mutiple/mybatisplus/service/PayService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/src/main/java/io/seata/samples/mutiple/mybatisplus/service/StockService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/src/main/java/io/seata/samples/mutiple/mybatisplus/service/impl/OrderServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/src/main/java/io/seata/samples/mutiple/mybatisplus/service/impl/PayServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/src/main/java/io/seata/samples/mutiple/mybatisplus/service/impl/StockServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/src/main/resources/file.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/src/main/resources/registry.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/src/test/java/io/seata/samples/mutiple/mybatisplus/MultipleDatasourceMyBatisPlusApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/target/classes/file.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/target/classes/io/seata/samples/mutiple/mybatisplus/MultipleDatasourceMyBatisPlusApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/target/classes/io/seata/samples/mutiple/mybatisplus/common/OperationResponse$OperationResponseBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/target/classes/io/seata/samples/mutiple/mybatisplus/common/OperationResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/target/classes/io/seata/samples/mutiple/mybatisplus/common/order/Order$OrderBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/target/classes/io/seata/samples/mutiple/mybatisplus/common/order/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/target/classes/io/seata/samples/mutiple/mybatisplus/common/order/OrderStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/target/classes/io/seata/samples/mutiple/mybatisplus/common/order/PlaceOrderRequestVO$PlaceOrderRequestVOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/target/classes/io/seata/samples/mutiple/mybatisplus/common/order/PlaceOrderRequestVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/target/classes/io/seata/samples/mutiple/mybatisplus/common/pay/Account$AccountBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/target/classes/io/seata/samples/mutiple/mybatisplus/common/pay/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/target/classes/io/seata/samples/mutiple/mybatisplus/common/pay/ReduceBalanceRequestVO$ReduceBalanceRequestVOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/target/classes/io/seata/samples/mutiple/mybatisplus/common/pay/ReduceBalanceRequestVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/target/classes/io/seata/samples/mutiple/mybatisplus/common/stock/Product$ProductBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/target/classes/io/seata/samples/mutiple/mybatisplus/common/stock/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/target/classes/io/seata/samples/mutiple/mybatisplus/common/stock/ReduceStockRequestVO$ReduceStockRequestVOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/target/classes/io/seata/samples/mutiple/mybatisplus/common/stock/ReduceStockRequestVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/target/classes/io/seata/samples/mutiple/mybatisplus/config/DataSourceKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/target/classes/io/seata/samples/mutiple/mybatisplus/config/DataSourceProxyConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/target/classes/io/seata/samples/mutiple/mybatisplus/config/DynamicDataSourceContextHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/target/classes/io/seata/samples/mutiple/mybatisplus/config/DynamicRoutingDataSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/target/classes/io/seata/samples/mutiple/mybatisplus/controller/OrderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/target/classes/io/seata/samples/mutiple/mybatisplus/dao/AccountDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/target/classes/io/seata/samples/mutiple/mybatisplus/dao/OrderDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/target/classes/io/seata/samples/mutiple/mybatisplus/dao/ProductDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/target/classes/io/seata/samples/mutiple/mybatisplus/service/OrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/target/classes/io/seata/samples/mutiple/mybatisplus/service/PayService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/target/classes/io/seata/samples/mutiple/mybatisplus/service/StockService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/target/classes/io/seata/samples/mutiple/mybatisplus/service/impl/OrderServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/target/classes/io/seata/samples/mutiple/mybatisplus/service/impl/PayServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/target/classes/io/seata/samples/mutiple/mybatisplus/service/impl/StockServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/target/classes/registry.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-mybatis-plus/target/test-classes/io/seata/samples/mutiple/mybatisplus/MultipleDatasourceMyBatisPlusApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-seata/REDEME.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-seata/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-seata/src/main/java/com/example/multipledatasourceseata/MultipleDatasourceSeataApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-seata/src/main/java/com/example/multipledatasourceseata/controller/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-seata/src/main/java/com/example/multipledatasourceseata/dao/AccountDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-seata/src/main/java/com/example/multipledatasourceseata/dao/OrderDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-seata/src/main/java/com/example/multipledatasourceseata/dao/ProductDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-seata/src/main/java/com/example/multipledatasourceseata/entiy/OrderDO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-seata/src/main/java/com/example/multipledatasourceseata/service/AccountService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-seata/src/main/java/com/example/multipledatasourceseata/service/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-seata/src/main/java/com/example/multipledatasourceseata/service/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-seata/src/main/java/com/example/multipledatasourceseata/service/impl/AccountServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-seata/src/main/java/com/example/multipledatasourceseata/service/impl/OrderServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-seata/src/main/java/com/example/multipledatasourceseata/service/impl/ProductServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-seata/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-seata/src/main/resources/data-biz.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../file-model/multiple-datasource-seata/target/classes/application.yml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\coding\Maven-jars\repo" />
+        <option name="mavenHome" value="D:\Program Files\apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\coding\Maven-jars\meg-cicd-settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="22GQ7s3C2ybWo1cfl7IIjthDG3t" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../file-db-model-seata-all/multiple-datasource-mybatis-plus" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\coding\personal\learn\seata\seata-fgw\seata\multiple-datasource-seata\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MultipleDatasourceSeataApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="multiple-datasource-seata" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.multipledatasourceseata.MultipleDatasourceSeataApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9eedf0e2-6f4b-4c67-aa4c-91056392e5da" name="Default Changelist" comment="" />
+      <created>1639461280586</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639461280586</updated>
+      <workItem from="1639461281672" duration="1538000" />
+      <workItem from="1639465876382" duration="1239000" />
+      <workItem from="1639467750564" duration="419000" />
+    </task>
+    <task id="LOCAL-00001" summary="sql">
+      <created>1639461422117</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1639461422117</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="sql" />
+    <option name="LAST_COMMIT_MESSAGE" value="sql" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/multipledatasourceseata/service/impl/OrderServiceImpl.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

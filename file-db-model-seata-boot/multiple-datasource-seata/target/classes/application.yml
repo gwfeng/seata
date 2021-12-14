@@ -1,0 +1,44 @@
+server:
+  port: 8081 # �˿�
+
+spring:
+  application:
+    name: multi-datasource-service  # Ӧ����
+
+  datasource:
+    # dynamic-datasource-spring-boot-starter ��̬����Դ���������Ӧ DynamicDataSourceProperties ��
+    dynamic:
+      primary: order-ds # ����Ĭ�ϵ�����Դ��������Դ�飬Ĭ��ֵ��Ϊ master
+      datasource:
+        # ���� order ����Դ����
+        order-ds:
+          url: jdbc:mysql://127.0.0.1:3306/seata_order?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+          driver-class-name: com.mysql.jdbc.Driver
+          username: root
+          password: root
+        # �˻� pay ����Դ����
+        account-ds:
+          url: jdbc:mysql://127.0.0.1:3306/seata_account?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+          driver-class-name: com.mysql.jdbc.Driver
+          username: root
+          password: root
+        # ��Ʒ product ����Դ����
+        product-ds:
+          url: jdbc:mysql://127.0.0.1:3306/seata_product?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+          driver-class-name: com.mysql.jdbc.Driver
+          username: root
+          password: root
+      seata: true # �Ƿ������� Seata �ļ���
+
+# Seata �������Ӧ SeataProperties ��
+seata:
+  application-id: ${spring.application.name} # Seata Ӧ�ñ�ţ�Ĭ��Ϊ ${spring.application.name}
+  tx-service-group: ${spring.application.name}-group # Seata �������ţ����� TC ��Ⱥ��
+  # �����������Ӧ ServiceProperties ��
+  service:
+    # ������ͷ����ӳ��
+    vgroup-mapping:
+      multi-datasource-service-group: default
+    # ����� Seata �����ӳ��
+    grouplist:
+      default: 127.0.0.1:8091
