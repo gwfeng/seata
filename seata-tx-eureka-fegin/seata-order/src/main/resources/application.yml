@@ -1,0 +1,29 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: order-server
+  cloud:
+    alibaba:
+      seata:
+        #这个fsp_tx_group自定义命名很重要，server，client都要保持一致
+        tx-service-group: fsp_tx_group
+  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/seata
+    username: root
+    password: 123456
+mybatis:
+  mapperLocations: classpath:mapper/*.xml
+  typeAliasesPackage: com.lsh.entity.*
+eureka:
+  instance:
+    #主机名称:服务名称修改
+    instance-id: order-server
+    # 访问路径可以显示IP地址
+    ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8081/eureka/
+
