@@ -18,6 +18,7 @@ db 模式，server 端需要修改 register.conf,file.conf 配置为db 模式，
 seata-all 依赖,resource 下需要添加register.conf,file.conf 文件，无需改动 demo "multiple-datasource-mybatis-plus"
 #client配置注意点：
 #file.conf
+~~~
 service {
   #transaction service group mapping
   vgroupMapping.my_test_tx_group = "default"
@@ -28,13 +29,15 @@ service {
   #disable seata
   disableGlobalTransaction = false
 }
-
+~~~
+~~~
 #allication.properties
 spring.cloud.alibaba.seata.tx-service-group=my_test_tx_group
-
+~~~
 
 seata-spring-boot-starter 依赖，无需添加register.conf,file.conf 文件,支持yml、properties配置(.conf可删除)，内部已依赖seata-all 见demo "multiple-datasource-seata"
 #client配置注意点：
+~~~
 spring:
   application:
     name: multi-datasource-service  # 应用名
@@ -76,15 +79,22 @@ seata:
     # 分组和 Seata 服务的映射
     grouplist:
       default: 127.0.0.1:8091
-
+~~~
 
 
 启动步骤：
 步骤一：启动server 端
+
 步骤二：建表(仅db)
+
 全局事务会话信息由3块内容构成，全局事务-->分支事务-->全局锁，对应表global_table、branch_table、lock_table
+
 步骤三：修改store.mode
+
 启动包: seata-->conf-->file.conf，修改store.mode="db或者redis"
+
 步骤四：修改数据库连接|redis属性配置
+
 启动包: seata-->conf-->file.conf，修改store.db或store.redis相关属性。
+
 步骤五：启动
