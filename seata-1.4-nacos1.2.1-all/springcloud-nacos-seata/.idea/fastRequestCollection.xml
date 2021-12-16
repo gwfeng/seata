@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="fastRequestCollection">
+    <option name="detail">
+      <CollectionDetail>
+        <option name="childList">
+          <list>
+            <CollectionDetail>
+              <option name="childList">
+                <list>
+                  <CollectionDetail>
+                    <option name="domain" value="http://localhost:9091" />
+                    <option name="enableEnv" value="order" />
+                    <option name="enableProject" value="nacos-seata" />
+                    <option name="id" value="id_com.work.order.controller.OrderController.placeOrderCommit" />
+                    <option name="name" value="下单：插入订单表、扣减库存，模拟回滚" />
+                    <option name="paramGroup">
+                      <ParamGroupCollection>
+                        <option name="bodyKeyValueListJson" value="" />
+                        <option name="className" value="com.work.order.controller.OrderController" />
+                        <option name="method" value="placeOrderCommit" />
+                        <option name="methodDescription" value="下单：插入订单表、扣减库存，模拟回滚" />
+                        <option name="methodType" value="GET" />
+                        <option name="multipartKeyValueListJson" value="[]" />
+                        <option name="originUrl" value="order/placeOrder/commit" />
+                        <option name="pathParamsKeyValueListJson" value="[]" />
+                        <option name="url" value="/order/placeOrder/commit" />
+                        <option name="urlEncodedKeyValueListJson" value="[]" />
+                        <option name="urlEncodedKeyValueListText" value="" />
+                        <option name="urlParamsKeyValueListJson" value="[]" />
+                        <option name="urlParamsKeyValueListText" value="" />
+                      </ParamGroupCollection>
+                    </option>
+                    <option name="type" value="2" />
+                  </CollectionDetail>
+                </list>
+              </option>
+              <option name="groupId" value="1" />
+              <option name="id" value="1" />
+              <option name="name" value="Default Group" />
+              <option name="type" value="1" />
+            </CollectionDetail>
+          </list>
+        </option>
+        <option name="groupId" value="-1" />
+        <option name="id" value="0" />
+        <option name="name" value="Root" />
+        <option name="type" value="1" />
+      </CollectionDetail>
+    </option>
+  </component>
+</project>

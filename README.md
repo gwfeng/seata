@@ -77,3 +77,14 @@ seata:
     grouplist:
       default: 127.0.0.1:8091
 
+
+
+启动步骤：
+步骤一：启动server 端
+步骤二：建表(仅db)
+全局事务会话信息由3块内容构成，全局事务-->分支事务-->全局锁，对应表global_table、branch_table、lock_table
+步骤三：修改store.mode
+启动包: seata-->conf-->file.conf，修改store.mode="db或者redis"
+步骤四：修改数据库连接|redis属性配置
+启动包: seata-->conf-->file.conf，修改store.db或store.redis相关属性。
+步骤五：启动

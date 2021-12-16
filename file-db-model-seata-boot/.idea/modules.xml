@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/file-db-model-seata-boot.iml" filepath="$PROJECT_DIR$/.idea/file-db-model-seata-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multiple-datasource-seata/multiple-datasource-seata.iml" filepath="$PROJECT_DIR$/multiple-datasource-seata/multiple-datasource-seata.iml" />
+    </modules>
+  </component>
+</project>
