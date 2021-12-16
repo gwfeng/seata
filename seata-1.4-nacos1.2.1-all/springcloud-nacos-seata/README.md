@@ -7,7 +7,7 @@ demo中使用的相关版本号，具体请看代码。如果搭建个人demo不
 server 端
 * seata server 1.4.0
 * nacos server 1.2.1
-  
+
 client 端
 * seata-client 1.4.0
 * nacos-client 1.1.4
@@ -30,7 +30,7 @@ seata-server为release版本1.4.0，demo采用本地单机部署，从此处下�
 并解压
 
 ##2、开发步骤：
-#### 2.1、启动nacos 
+#### 2.1、启动nacos
 
 #### 2.2 修改seata server registy.conf 配置
 
@@ -38,7 +38,7 @@ seata-server为release版本1.4.0，demo采用本地单机部署，从此处下�
 
 **注意这里有一个坑，serverAddr不能带‘http://’前缀**
 
-~~~java
+~~~
 registry {
         # file 、nacos 、eureka、redis、zk、consul、etcd3、sofa
         type = "nacos"
@@ -161,7 +161,6 @@ spring.datasource.druid.password=root
 
 ### 2.1 数据库初始化
 
-~~~SQL
 #### 2.1.1 全局事务表
 ~~~
 -- -------------------------------- The script used when storeMode is 'db' --------------------------------
@@ -230,30 +229,30 @@ use seata_order;
 
 DROP TABLE IF EXISTS `order_tbl`;
 CREATE TABLE `order_tbl` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `user_id` varchar(255) DEFAULT NULL,
-  `commodity_code` varchar(255) DEFAULT NULL,
-  `count` int(11) DEFAULT 0,
-  `money` int(11) DEFAULT 0,
-  PRIMARY KEY (`id`)
+`id` int(11) NOT NULL AUTO_INCREMENT,
+`user_id` varchar(255) DEFAULT NULL,
+`commodity_code` varchar(255) DEFAULT NULL,
+`count` int(11) DEFAULT 0,
+`money` int(11) DEFAULT 0,
+PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 CREATE TABLE `undo_log`
 (
-  `id`            BIGINT(20)   NOT NULL AUTO_INCREMENT,
-  `branch_id`     BIGINT(20)   NOT NULL,
-  `xid`           VARCHAR(100) NOT NULL,
-  `context`       VARCHAR(128) NOT NULL,
-  `rollback_info` LONGBLOB     NOT NULL,
-  `log_status`    INT(11)      NOT NULL,
-  `log_created`   DATETIME     NOT NULL,
-  `log_modified`  DATETIME     NOT NULL,
-  `ext`           VARCHAR(100) DEFAULT NULL,
-  PRIMARY KEY (`id`),
-  UNIQUE KEY `ux_undo_log` (`xid`, `branch_id`)
+`id`            BIGINT(20)   NOT NULL AUTO_INCREMENT,
+`branch_id`     BIGINT(20)   NOT NULL,
+`xid`           VARCHAR(100) NOT NULL,
+`context`       VARCHAR(128) NOT NULL,
+`rollback_info` LONGBLOB     NOT NULL,
+`log_status`    INT(11)      NOT NULL,
+`log_created`   DATETIME     NOT NULL,
+`log_modified`  DATETIME     NOT NULL,
+`ext`           VARCHAR(100) DEFAULT NULL,
+PRIMARY KEY (`id`),
+UNIQUE KEY `ux_undo_log` (`xid`, `branch_id`)
 ) ENGINE = InnoDB
-  AUTO_INCREMENT = 1
-  DEFAULT CHARSET = utf8;
+AUTO_INCREMENT = 1
+DEFAULT CHARSET = utf8;
 
 
 -- 创建 stock库、业务表、undo_log表
@@ -262,29 +261,29 @@ use seata_stock;
 
 DROP TABLE IF EXISTS `stock_tbl`;
 CREATE TABLE `stock_tbl` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `commodity_code` varchar(255) DEFAULT NULL,
-  `count` int(11) DEFAULT 0,
-  PRIMARY KEY (`id`),
-  UNIQUE KEY (`commodity_code`)
+`id` int(11) NOT NULL AUTO_INCREMENT,
+`commodity_code` varchar(255) DEFAULT NULL,
+`count` int(11) DEFAULT 0,
+PRIMARY KEY (`id`),
+UNIQUE KEY (`commodity_code`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 CREATE TABLE `undo_log`
 (
-  `id`            BIGINT(20)   NOT NULL AUTO_INCREMENT,
-  `branch_id`     BIGINT(20)   NOT NULL,
-  `xid`           VARCHAR(100) NOT NULL,
-  `context`       VARCHAR(128) NOT NULL,
-  `rollback_info` LONGBLOB     NOT NULL,
-  `log_status`    INT(11)      NOT NULL,
-  `log_created`   DATETIME     NOT NULL,
-  `log_modified`  DATETIME     NOT NULL,
-  `ext`           VARCHAR(100) DEFAULT NULL,
-  PRIMARY KEY (`id`),
-  UNIQUE KEY `ux_undo_log` (`xid`, `branch_id`)
+`id`            BIGINT(20)   NOT NULL AUTO_INCREMENT,
+`branch_id`     BIGINT(20)   NOT NULL,
+`xid`           VARCHAR(100) NOT NULL,
+`context`       VARCHAR(128) NOT NULL,
+`rollback_info` LONGBLOB     NOT NULL,
+`log_status`    INT(11)      NOT NULL,
+`log_created`   DATETIME     NOT NULL,
+`log_modified`  DATETIME     NOT NULL,
+`ext`           VARCHAR(100) DEFAULT NULL,
+PRIMARY KEY (`id`),
+UNIQUE KEY `ux_undo_log` (`xid`, `branch_id`)
 ) ENGINE = InnoDB
-  AUTO_INCREMENT = 1
-  DEFAULT CHARSET = utf8;
+AUTO_INCREMENT = 1
+DEFAULT CHARSET = utf8;
 
 -- 初始化库存模拟数据
 INSERT INTO seata_stock.stock_tbl (id, commodity_code, count) VALUES (1, 'product-1', 10);
@@ -312,8 +311,3 @@ INSERT INTO seata_stock.stock_tbl (id, commodity_code, count) VALUES (2, 'produc
 2. 分布式事务失败，模拟下单成功、扣库存失败，最终同时回滚
 
    localhost:9091/order/placeOrder/rollback 
-
-
-
-
-
