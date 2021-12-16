@@ -220,6 +220,7 @@ PRIMARY KEY (`row_key`),
 KEY `idx_branch_id` (`branch_id`)
 ) ENGINE = InnoDB
 DEFAULT CHARSET = utf8;
+~~~
 
 #### 2.1.1 业务表+undo表
 ~~~
